@@ -176,14 +176,14 @@ const App = () => {
         <header className="lg:py-[25px] sm:py-[25px] sm:px-[5px]" id="bg">
           <nav className="bg-[#201f1f28] flex items-center lg:w-[80%] p-[5px] nav m-[auto] justify-around">
             <img src="src/assets/navImg/Снимок экрана 2023-08-10 в 22.08.08-PhotoRoom 2.png" alt="" />
-         
+
             <Box className="lg:flex items-center gap-[20px] sm:hidden">
               <Typography>{t("navbar1")}</Typography>
               <Typography>{t("navbar2")}</Typography>
               <Typography>{t("navbar3")}</Typography>
               <Typography>{t("navbar4")}</Typography>
             </Box>
-      
+
             <Box className="lg:flex items-center gap-[25px] sm:hidden">
               <Typography>+7 (999)-999-99-99</Typography>
               <Typography>test@mail.ru</Typography>
@@ -206,11 +206,13 @@ const App = () => {
             </select>
           </nav>
 
-          {/* aside */}
+
           <aside className="lg:pr-[378px] lg:pl-[175px] lg:pt-[224px] flex flex-col items-start lg:gap-[30px] sm:gap-[15px] sm:py-[90px]">
             <h4 className="lg:text-[24px] sm:text-[15px] uppercase font-[500]">{t("section1")}</h4>
             <h1 className="lg:text-[60px] uppercase sm:text-[22px] font-[500]">{t("ptext")}</h1>
             <p className="text-[#A1A1AA] lg:w-[511px] leading-[28px] sm:text-[14px] lg:text-[18px]">{t("ptext1ce")}</p>
+
+            {/* box */}
             <Box className="flex items-center gap-[20px] sm:flex-wrap">
               <button id="btn2" className="px-[52px] py-[15px]">{t("btn1")}</button>
               <Box className="flex w-[390px] items-center gap-[10px] py-[17px] px-[16px]" id="d1">
@@ -218,7 +220,9 @@ const App = () => {
                 <input type="text" className="rounded-[60px] bg-[#80808000] w-[385px] px-[5px]" placeholder={t("ptext2")} />
               </Box>
             </Box>
+
           </aside>
+          {/* box */}
           <Box className="flex flex-col gap-[15px] lg:px-[176px] lg:py-[43px] sm:px-[14px] sm:py-[24px]">
             <Box className="flex items-center gap-[10px]">
               <img src="src/assets/main/sec1/Next page.png" alt="" />
@@ -245,6 +249,7 @@ const App = () => {
               <h1 className="lg:text-[60px] sm:text-[39px] uppercase">{t("ptext4")} <p className="text-[#848484]">{t("ptext5")} <span className="text-[#6DDCFF]">{t("ptext6")}</span></p></h1>
             </aside>
 
+            {/* box */}
             <Box className="flex flex-wrap lg:pl-[176px] lg:py-[50px] sm:px-[14px] sm:py-[24px] gap-[21px]">
               <p className="lg:w-[277px]">{t("ptext7")}</p>
               <div className="bg1 w-[390px]"><Card1 img={"src/assets/card1/Intersect.png"} h1={t("ptext8")} p={t("ptext9")} /></div>
@@ -257,6 +262,7 @@ const App = () => {
 
           {/* section2 */}
           <section className="lg:pt-[128px] sm:py-[60px]">
+           {/* bxo */}
             <Box className="flex flex-col gap-[10px] lg:px-[176px] lg:py-[20px] sm:px-[14px] sm:py-[24px]">
               <hr />
               <div className="flex justify-between">
