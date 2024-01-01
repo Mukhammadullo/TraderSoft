@@ -234,7 +234,7 @@ const App = () => {
         <main>
 
 
-          {/* section1 */}
+          {/* section1________________________________________________-*/}
           <section>
             <Box className="flex flex-col gap-[10px] lg:px-[176px] lg:py-[50px] sm:px-[14px] sm:py-[24px]">
               <hr />
@@ -260,7 +260,7 @@ const App = () => {
             </Box>
           </section>
 
-          {/* section2 */}
+          {/* section2______________________________________ */}
           <section className="lg:pt-[128px] sm:py-[60px]">
            {/* bxo */}
             <Box className="flex flex-col gap-[10px] lg:px-[176px] lg:py-[20px] sm:px-[14px] sm:py-[24px]">
@@ -288,7 +288,7 @@ const App = () => {
             </div>
           </section>
 
-          {/* section3 */}
+          {/* section3 ___________________________________________________*/}
           <section>
             <Box className="flex flex-col gap-[10px] lg:px-[176px] sm:px-[14px]">
               <hr />
@@ -316,7 +316,7 @@ const App = () => {
           </section>
 
 
-          {/* section4 */}
+          {/* section4 ______________________________*/}
           <section>
             <Box className="flex flex-col gap-[10px] lg:py-[130px] sm:py-[60px] lg:px-[176px] sm:px-[14px]">
               <hr />
@@ -337,7 +337,7 @@ const App = () => {
 
               {/* right */}
               <aside>
-                <h1 className="lg:text-[60px] sm:text-[39px] uppercase">{t("comp")}</h1>
+                <h1 className="lg:text-[60px] sm:text-[39px] uppercase">{t("t5")}</h1>
                 <div className="lg:w-[455px] md:w-[455px] flex flex-col gap-[20px] text-[#868585b5]">
                   <p>{t("pt1")}</p>
                   <p>{t("pt2")}</p>
@@ -349,7 +349,7 @@ const App = () => {
 
           <section className='lg:px-[120px] lg:py-[80px]'>
             <button className='bg-[hsl(186,43%,23%)] py-[5px] px-[15px] rounded-[5px] text-white ml-[30px]' onClick={() => { handleClickOpenAdd() }}>New +</button>
-            {/* table */}
+          
             <TableContainer sx={{ width: "95%", margin: "0 auto", paddingBottom: "50px", paddingTop: "10px" }}>
               <Table sx={{ minWidth: 400 }} aria-label="customized table">
                 <TableHead>
@@ -382,7 +382,7 @@ const App = () => {
             </TableContainer>
           </section>
 
-          {/* section5 */}
+          {/* section5________________________________ */}
           <section>
             <Box className="flex flex-col gap-[10px] lg:py-[130px] sm:py-[60px] lg:px-[176px] sm:px-[14px]">
               <hr />
@@ -418,7 +418,7 @@ const App = () => {
           </section>
 
 
-          {/* section6 */}
+          {/* section6____________________________________ */}
           <section className="lg:py-[180px] lg:px-[176px]">
             <Box className="flex flex-col gap-[10px] lg:py-[130px] sm:py-[60px] sm:px-[14px]">
               <hr />
