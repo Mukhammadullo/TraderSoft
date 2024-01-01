@@ -172,19 +172,18 @@ const App = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
-
         {/* header */}
         <header className="lg:py-[25px] sm:py-[25px] sm:px-[5px]" id="bg">
           <nav className="bg-[#201f1f28] flex items-center lg:w-[80%] p-[5px] nav m-[auto] justify-around">
             <img src="src/assets/navImg/Снимок экрана 2023-08-10 в 22.08.08-PhotoRoom 2.png" alt="" />
-            {/* box */}
+         
             <Box className="lg:flex items-center gap-[20px] sm:hidden">
               <Typography>{t("navbar1")}</Typography>
               <Typography>{t("navbar2")}</Typography>
               <Typography>{t("navbar3")}</Typography>
               <Typography>{t("navbar4")}</Typography>
             </Box>
-            {/* box */}
+      
             <Box className="lg:flex items-center gap-[25px] sm:hidden">
               <Typography>+7 (999)-999-99-99</Typography>
               <Typography>test@mail.ru</Typography>
@@ -228,9 +227,9 @@ const App = () => {
             <img src="src/assets/main/sec1/Frame 63.png" className="w-[100%]" />
           </Box>
         </header>
-
-        {/* main */}
         <main>
+
+
           {/* section1 */}
           <section>
             <Box className="flex flex-col gap-[10px] lg:px-[176px] lg:py-[50px] sm:px-[14px] sm:py-[24px]">
